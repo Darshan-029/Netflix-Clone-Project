@@ -1,569 +1,587 @@
 /* Page 1 */
 
 * {
-    margin: 0;
-    font-family: Arial;
-    border: border-box;
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
 }
 
 #Netflixlogo {
-    width: 170px;
-    height: 100%;
+  width: 170px;
+  height: 100%;
 }
 
 .top {
-    width: 81%;
-    height: 50px;
-    border: 2px solid transparent;
-    padding: 24px 48px;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 106px;
+  width: 81%;
+  height: 50px;
+  border: 2px solid transparent;
+  padding: 24px 48px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 106px;
 }
 
 .pg1 {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(Background.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 800px;
-    position: relative;
-    background-position: center;
-    z-index: 1;
-    color: white;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(Background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-position: center;
+  z-index: 1;
+  color: white;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
 .select {
-    height: 32px;
-    width: 85%;
+  height: 32px;
+  width: 85%;
 }
 
 #lang {
-    padding: 5px 8px 6px 15px;
-    height: 32px;
-    width: 125px;
-    background-color: transparent;
-    color: white;
-    font-size: 100%;
-    border-radius: 5px;
-    float: right;
+  padding: 5px 8px 6px 15px;
+  height: 32px;
+  width: 125px;
+  background-color: transparent;
+  color: white;
+  font-size: 100%;
+  border-radius: 5px;
+  float: right;
 }
 
 #lang option {
-    color: black;
+  color: black;
 }
 
 #lang:active {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 #lang:focus {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 #signin {
-    background-color: white;
-    float: right;
+  background-color: white;
+  float: right;
 }
 
 #signin {
-    height: 32px;
-    width: 76px;
-    border: 0.0625rem solid transparent;
-    background-color: rgb(229, 9, 20);
-    color: white;
-    font-weight: bold;
-    border-radius: 0.1875rem;
-    font-size: 0.875rem;
-    margin-left: 20px;
-    transition: background-color 0.4s;
+  height: 32px;
+  width: 76px;
+  border: 0.0625rem solid transparent;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.1875rem;
+  font-size: 0.875rem;
+  margin-left: 20px;
+  transition: background-color 0.4s;
 }
 
 #signin:hover {
-    background-color: rgb(186, 20, 28);
-    cursor: pointer;
+  background-color: rgb(186, 20, 28);
+  cursor: pointer;
 }
 
 #signin:active {
-    background-color: rgb(130, 20, 28);
-    color: rgb(208, 194, 194);
-    transition: none;
+  background-color: rgb(130, 20, 28);
+  color: rgb(208, 194, 194);
+  transition: none;
 }
 
 h1 {
-    color: white;
-    font-size: 3rem;
-    font-family: Helvetica;
-    background-color: transparent;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.650);
-    font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  font-family: Helvetica;
+  background-color: transparent;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
+  font-weight: 900;
 }
 
 .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 234px;
-    position: absolute;
-    top: 0;
-    bottom: 90px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 234px;
+  position: absolute;
+  top: 0;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  display: block;
 }
 
 #p1 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    font-family: Helvetica;
-    background-color: transparent;
-    color: white;
-    margin: 1rem 0 0;
-    display: inline-block;
-    width: 870px;
-    height: 30px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.650);
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: Helvetica;
+  background-color: transparent;
+  color: white;
+  margin: 1rem 0 0;
+  display: inline-block;
+  width: 870px;
+  height: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
 }
 
 h3 {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 4;
-    color: white;
-    display: inline-block;
-    background-color: transparent;
-    width: 806px;
-    height: 30px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 4;
+  color: white;
+  display: inline-block;
+  background-color: transparent;
+  width: 806px;
+  height: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
 }
 
 #mail {
-    width: 330px;
-    height: 22px;
-    padding: 1rem 1rem 1rem;
-    font-size: 1rem;
-    background-color: rgba(22, 22, 22, 0.844);
-    color: white;
-    border: 0.5px solid gray;
-    border-radius: 5px;
+  width: 330px;
+  height: 22px;
+  padding: 1rem 1rem 1rem;
+  font-size: 1rem;
+  background-color: rgba(22, 22, 22, 0.844);
+  color: white;
+  border: 0.5px solid gray;
+  border-radius: 5px;
 }
 
 form {
-    line-height: 6;
+  line-height: 6;
 }
 
 #mail::placeholder {
-    color: rgb(202, 202, 202);
+  color: rgb(202, 202, 202);
 }
 
 #bt2 {
-    width: 213px;
-    height: 55.6px;
-    border: 0.0625rem solid transparent;
-    border-radius: 5px;
-    padding: 1px 6px;
-    font-size: 25px;
-    background-color: rgb(229, 9, 20);
-    color: white;
-    font-weight: 550;
-    margin-left: 5px;
-    text-align: center;
-    transition: background-color 0.4s;
+  width: 213px;
+  height: 55.6px;
+  border: 0.0625rem solid transparent;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-size: 25px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: 550;
+  margin-left: 5px;
+  text-align: center;
+  transition: background-color 0.4s;
 }
 
 #bt2:hover {
-    background-color: rgb(186, 20, 28);
-    cursor: pointer;
+  background-color: rgb(186, 20, 28);
+  cursor: pointer;
 }
 
 #bt2:active {
-    background-color: rgb(130, 20, 28);
-    color: rgb(208, 194, 194);
-    transition: none;
+  background-color: rgb(130, 20, 28);
+  color: rgb(208, 194, 194);
+  transition: none;
 }
 
 #mail:active {
-    background-color: rgba(65, 75, 104, 0.500);
+  background-color: rgba(65, 75, 104, 0.5);
 }
 
 #mail:focus {
-    background-color: rgba(65, 75, 104, 0.500);
+  background-color: rgba(65, 75, 104, 0.5);
 }
 
 /* page 2 */
 .pg2 {
-    width: 100%;
-    height: 2136px;
-    background-color: black;
-    border-top: 5px solid rgb(50, 50, 50);
-    border-bottom: 5px solid rgb(50, 50, 50);
+  width: 100%;
+  height: 2136px;
+  background-color: black;
+  border-top: 5px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(50, 50, 50);
 }
 
 #sep1 {
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    border-top: solid 0.25rem transparent;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    top: 700px;
-    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
-    
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  border-top: solid 0.25rem transparent;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  top: 700px;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
 }
 
 #sep2 {
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    top: 705px;
-    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  top: 705px;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
 }
 
 h2 {
-    width: 970px;
-    height: 32px;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 550;
-    position: absolute;
-    left: 148px;
-    top: 68px;
+  width: 970px;
+  height: 32px;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 550;
+  position: absolute;
+  left: 148px;
+  top: 68px;
 }
 
 #up {
-    height: 56px;
-    width: 970px;
-    position: absolute;
-    left: 148px;
+  height: 56px;
+  width: 970px;
+  position: absolute;
+  left: 148px;
 }
-
 
 #region {
-    height: 40px;
-    width: 95px;
-    background-color: rgba(128, 128, 128, 0.13);
-    padding: 8px 8px 8px 8px;
-    color: white;
-    border-radius: 5px;
-    position: absolute;
-    top: 12px;
-    font-size: 100%;
+  height: 40px;
+  width: 95px;
+  background-color: rgba(128, 128, 128, 0.13);
+  padding: 8px 8px 8px 8px;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 12px;
+  font-size: 100%;
 }
 #region option {
-    color: black;
+  color: black;
 }
 #region:active {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 #region:focus {
-    border: 2px solid white;
+  border: 2px solid white;
 }
-
 
 #type {
-    height: 40px;
-    width: 117px;
-    background-color: rgba(128, 128, 128, 0.13);
-    padding: 8px 8px 8px 8px;
-    color: white;
-    border-radius: 5px;
-    position: absolute;
-    top: 12px;
-    left: 120px;
-    font-size: 100%;
+  height: 40px;
+  width: 117px;
+  background-color: rgba(128, 128, 128, 0.13);
+  padding: 8px 8px 8px 8px;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 12px;
+  left: 120px;
+  font-size: 100%;
 }
 #type option {
-    color: black;
+  color: black;
 }
 #type:active {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 #type:focus {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 #cards {
-    width: 80%;
-    height: 300px;
+  width: 80%;
+  height: 300px;
 }
 
 #list {
-    border: 2px solid transparent;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: relative;
-    left: 105px;
-    top: 55px;
-    align-items: center;
-    list-style: none;
+  border: 2px solid transparent;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  left: 105px;
+  top: 55px;
+  align-items: center;
+  list-style: none;
 }
 
-
 .li {
-    height: 252px;
-    width: 200px;
-    border: 2px solid transparent;
-    color: white;
-    border-radius: 10px;
+  height: 252px;
+  width: 200px;
+  border: 2px solid transparent;
+  color: white;
+  border-radius: 10px;
+  transition: 0.25s 0.1s;
 }
 
 .n {
-    width: 58px;
-    height: 100px;
-    font-size: 90px;
-    z-index: 1;
-    color: black;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-    position: relative;
-    top: 130px;
-    right: 30px;
+  width: 58px;
+  height: 100px;
+  font-size: 90px;
+  z-index: 1;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  position: relative;
+  top: 130px;
+  right: 30px;
 }
 
-
 #l1 {
-    background-image: url(card1.jpg);
-    width: 180px;
-    background-size: contain;
-    transition: 0.25s;
+  background-image: url(card1.jpg);
+  width: 180px;
+  background-size: contain;
+  transition: 0.25s;
 }
 
 #l1:hover {
-    width: 190px;
-    height: 262px;
-    cursor: pointer;
+  width: 190px;
+  height: 262px;
+  cursor: pointer;
 }
-
 
 #l2 {
-    background-image: url(card2.jpg);
-    width: 180px;
-    background-size: contain;
-    transition: 0.25s;
+  background-image: url(card2.jpg);
+  width: 180px;
+  background-size: contain;
+  transition: 0.25s;
 }
-
 
 #l2:hover {
-    width: 190px;
-    height: 262px;
-    cursor: pointer;
+  width: 190px;
+  height: 262px;
+  cursor: pointer;
 }
 
-
 #l3 {
-    background-image: url(card3.jpg);
-    width: 180px;
-    background-size: contain;
-    transition: 0.25s;
+  background-image: url(card3.jpg);
+  width: 180px;
+  background-size: contain;
+  transition: 0.25s;
 }
 
 #l3:hover {
-    width: 190px;
-    height: 262px;
-    cursor: pointer;
+  width: 190px;
+  height: 262px;
+  cursor: pointer;
 }
 
-
 #l4 {
-    background-image: url(card4.jpg);
-    width: 180px;
-    background-size: contain;
-    transition: 0.25s;
+  background-image: url(card4.jpg);
+  width: 180px;
+  background-size: contain;
+  transition: 0.25s;
 }
 
 #l4:hover {
-    width: 190px;
-    height: 262px;
-    cursor: pointer;
+  width: 190px;
+  height: 262px;
+  cursor: pointer;
 }
 
-
 #l5 {
-    background-image: url(card5.jpg);
-    width: 180px;
-    background-size: contain;
-    transition: 0.25s;
+  background-image: url(card5.jpg);
+  width: 180px;
+  background-size: contain;
+  transition: 0.25s;
 }
 
 #l5:hover {
-    width: 190px;
-    height: 262px;
-    cursor: pointer;
+  width: 190px;
+  height: 262px;
+  cursor: pointer;
 }
 
-
 #hero {
-    width: 90%;
-    height: 500px;
-    border: 2px solid transparent;
-    position: relative;
-    top: 100px;
-    left: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  width: 90%;
+  height: 500px;
+  border: 2px solid transparent;
+  position: relative;
+  top: 100px;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 #title {
-    width: 250px;
-    position: absolute;
-    top: 0;
-    left: 25px;
-    font-weight: 600;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-weight: 600;
 }
 
 #block {
-    display: flex;
-    justify-content: space-evenly;
-    width: 92%;
-    height: 100%;
-    padding-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 92%;
+  height: 100%;
+  padding-left: 0;
 }
 
-#b1,#b2,#b3,#b4 {
-    width: 290px;
-    height: 280px;
-    position: relative;
-    top: 45px;
-    left: 7px;
-    border-radius: 15px;
-    background-size: cover;
-    background: linear-gradient(to bottom right, rgb(23, 23, 69), #171630, rgb(32, 24, 50), rgb(38, 13, 42), #1e0e20);
+#b1,
+#b2,
+#b3,
+#b4 {
+  width: 290px;
+  height: 280px;
+  position: relative;
+  top: 45px;
+  left: 7px;
+  border-radius: 15px;
+  background-size: cover;
+  background: linear-gradient(
+    to bottom right,
+    rgb(23, 23, 69),
+    #171630,
+    rgb(32, 24, 50),
+    rgb(38, 13, 42),
+    #1e0e20
+  );
 }
 
 .b {
-    position: relative;
-    width: 100%;
-    font-family: Arial;
-    font-size: 22px;
-    padding: 28px 10px 0 15px;
-    line-height: 1.5;
-    font-weight: 600;
+  position: relative;
+  width: 100%;
+  font-family: Arial;
+  font-size: 22px;
+  padding: 28px 10px 0 15px;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .p2 {
-    color: rgb(185, 185, 185);
-    position: relative;
-    top: 0;
-    padding: 20px 10px 0 15px;
-    width: 100%;
-    font-size: 16px;
-    line-height: 1.5;
+  color: rgb(185, 185, 185);
+  position: relative;
+  top: 0;
+  padding: 20px 10px 0 15px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 #svg {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 90%;
-    height: 70px;
-    z-index: 2;
-    position: absolute;
-    top: 1455px;
-    left: 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 70px;
+  z-index: 2;
+  position: absolute;
+  top: 1455px;
+  left: 135px;
 }
 
 #svg1 {
-    height: 50px;
-    width: 60px;
-    background-image: url(svg1.jpg);
-    background-size: cover;
+  height: 50px;
+  width: 60px;
+  background-image: url(svg1.jpg);
+  background-size: cover;
 }
 
 #svg2 {
-    height: 60px;
-    width: 60px;
-    background-image: url(svg2.png);
-    background-size: cover;
-    position: relative;
-    left: 30px;
+  height: 60px;
+  width: 60px;
+  background-image: url(svg2.png);
+  background-size: cover;
+  position: relative;
+  left: 30px;
 }
 
 #svg3 {
-    height: 60px;
-    width: 60px;
-    background-image: url(svg3.png);
-    background-size: cover;
-    position: relative;
-    left: 50px;
+  height: 60px;
+  width: 60px;
+  background-image: url(svg3.png);
+  background-size: cover;
+  position: relative;
+  left: 50px;
 }
 
 #svg4 {
-    height: 60px;
-    width: 60px;
-    background-image: url(svg4.png);
-    background-size: cover;
-    position: relative;
-    left: 70px;
+  height: 60px;
+  width: 60px;
+  background-image: url(svg4.png);
+  background-size: cover;
+  position: relative;
+  left: 70px;
 }
 
 #faq {
-    height: 560px;
-    width: 955px;
-    border: 2px solid transparent;
-    position: relative;
-    left: 145px;
+  height: 560px;
+  width: 955px;
+  border: 2px solid transparent;
+  position: relative;
+  left: 145px;
 }
 
 .fh {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 400px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
 }
 
 #faqbox {
-    height: 560px;
-    width: 100%;
-    z-index: 2;
-    position: relative;
-    top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  height: 560px;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .faq {
-    width: 100%;
-    height: 84px;
-    background-color: #2d2d2d;
-    align-items: center;
-    justify-content: flex-start;
-    display: flex;
-    padding-left: 25px;
-    color: white;
-    font-size: 24px;
-    transition: 0.3s;
+  width: 100%;
+  height: 84px;
+  background-color: #2d2d2d;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  padding-left: 25px;
+  color: white;
+  font-size: 24px;
+  transition: 0.3s;
 }
 
 .faq:hover {
-    background-color: #414141;
-    cursor: pointer;
+  background-color: #414141;
+  cursor: pointer;
 }
 
 #plus {
-    position: absolute;
-    font-size: 60px;
-    left: 920px;
-    font-family: serif;
+  position: absolute;
+  font-size: 60px;
+  left: 920px;
+  font-family: serif;
 }
