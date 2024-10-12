@@ -338,7 +338,6 @@ h2 {
   border: 2px solid transparent;
   color: white;
   border-radius: 10px;
-  transition: 0.25s 0.1s;
 }
 
 .n {
@@ -358,7 +357,7 @@ h2 {
   background-image: url(card1.jpg);
   width: 180px;
   background-size: contain;
-  transition: 0.25s;
+  transition: 0.25s 0.1s;
 }
 
 #l1:hover {
@@ -371,7 +370,7 @@ h2 {
   background-image: url(card2.jpg);
   width: 180px;
   background-size: contain;
-  transition: 0.25s;
+  transition: 0.25s 0.1s;
 }
 
 #l2:hover {
@@ -384,7 +383,7 @@ h2 {
   background-image: url(card3.jpg);
   width: 180px;
   background-size: contain;
-  transition: 0.25s;
+  transition: 0.25s 0.1s;
 }
 
 #l3:hover {
@@ -397,7 +396,7 @@ h2 {
   background-image: url(card4.jpg);
   width: 180px;
   background-size: contain;
-  transition: 0.25s;
+  transition: 0.25s 0.1s;
 }
 
 #l4:hover {
@@ -410,7 +409,7 @@ h2 {
   background-image: url(card5.jpg);
   width: 180px;
   background-size: contain;
-  transition: 0.25s;
+  transition: 0.25s 0.1s;
 }
 
 #l5:hover {
